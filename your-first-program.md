@@ -58,7 +58,7 @@ Functions in programming languages are similar to mathematical functions. They m
 cout << "Hello, World!" << endl;
 ```
 
-This line is composed of three different things. `cout` is a stream in which you insert "Hello, World!" and also insert something called endl. Here's the special thing about cout - whatever you insert into it gets printed onto the screen. So, when you insert the text \(which we refer to as a string\) into cout, the text gets printed onto the screen.
+This line is composed of three different things. cout is a stream in which you insert "Hello, World!" and also insert something called endl. Here's the special thing about cout - whatever you insert into it gets printed onto the screen. So, when you insert the text \(which we refer to as a string\) into cout, the text gets printed onto the screen.
 
 `endl has a small story of its own too. When you insert endl into cout, your computer stops printing text on the current line and switches to a new line.`
 
