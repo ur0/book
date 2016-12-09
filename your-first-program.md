@@ -42,13 +42,25 @@ int main() {
 }
 ```
 
-Notice the two `stds there? Our line above saves us from typing std:: before everything we're taking from iostream. To elaborate on that, it includes the contents of the std namespace (bunch of functions and other things provided to you by the language, stored in files like iostream) into the program so that we don't have to specify it explicitly.`
+Notice the two `stds there?`
+
+Our line above saves us from typing std:: before everything we're taking from iostream. To elaborate on that, it includes the contents of the std namespace \(bunch of functions and other things provided to you by the language, stored in files like iostream\) into the program so that we don't have to specify it explicitly.
 
 ```cpp
 int main() {
 ```
 
 This line declares a `function. Functions in programming languages are similar to mathematical functions. They may or may not take parameters, and may or may not produce (return) output. When we say int main(), we're defining a function named main which takes no parameters (called arguments) and returns an integer. The brace following those parantheses encloses the contents of the function. It also has a matching brace (}) at the last line, which indicates the end of our function.`
+
+
+
+```cpp
+cout << "Hello, World!" << endl;
+```
+
+This line is composed of three different things. `cout` is a stream in which you `insert` "Hello, World!" and also `insert` something called `endl`. Here's the special thing about cout - whatever you insert into it gets printed onto the screen. So, when you insert the text \(which we refer to as a `string`\) into `cout,` the text gets printed onto the screen.
+
+`endl` has a small story of its own too. When you insert `endl` into `cout`, your computer stops printing text on the current line and switches to a new line.
 
 
 
