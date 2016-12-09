@@ -1,5 +1,3 @@
-# 
-
 # The Highschooler's Guide to C++
 
 Are you a high-school student? Do you find existing books either useless or unnecessarily verbose?  
