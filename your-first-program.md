@@ -52,7 +52,9 @@ int main() {
 
 This line declares a `function.`
 
-Functions in programming languages are similar to mathematical functions. They may or may not take parameters, and may or may not produce \(return\) output. When we say int main\(\), we're defining a function named main which takes no parameters \(called arguments\) and returns an integer. The brace following those parantheses encloses the contents of the function. It also has a matching brace \(}\) at the last line, which indicates the end of our function.
+Functions in programming languages are similar to mathematical functions. They may or may not take parameters, and may or may not produce \(return\) output. When we say _int main\(\)_, we're defining a function named main which takes no parameters \(called arguments\) and returns an integer. The brace following those parantheses encloses the contents of the function. It also has a matching brace \(_}_\) at the last line, which indicates the end of our function. Here's a special thing about _main - _it is the first function that is executed by your computer when you run it.
+
+
 
 ```cpp
 cout << "Hello, World!" << endl;
@@ -60,5 +62,17 @@ cout << "Hello, World!" << endl;
 
 This line is composed of three different things. _cout_ is a _stream_ in which you insert "Hello, World!" and also insert something called _endl_. Here's the special thing about cout - whatever you insert into it gets printed onto the screen. So, when you insert the text \(which we refer to as a _string_\) into _cout_, the text gets printed onto the screen.
 
-_endl_ has a small story of its own too. When you insert endl into cout, your computer stops printing text on the current line and switches to a new line.
+_endl_ has a small story of its own too. When you insert an _endl_ into cout, your computer stops printing text on the current line and switches to a new line.
+
+
+
+`return 0;`
+
+This is both the smallest and the most confusing line for new programmers. This returns an _integer _\(remember _int main_?\) with the value of 0. Why does it do that deserves its own special explanation, but remember this - when you write the _main_ function, you should always return a 0 unless your program hit some sort of an error.
+
+You can also get away with not writing this line. If you omit this line, your compiler will assume that you want to return zero.
+
+
+
+So that was it, your first program. If you're not thoroughly rattled, keep going. If you are, remember that you're just starting out and that all of this will come naturally to you.
 
