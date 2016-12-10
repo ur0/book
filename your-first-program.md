@@ -68,5 +68,5 @@ This is both the smallest and the most confusing line for new programmers. This 
 
 You can also get away with not writing this line. If you omit this line, your compiler will assume that you want to return zero.
 
-So that was it, your first program. If you're not thoroughly rattled, keep going. If you are, remember that you're just starting out and that all of this will come naturally to you.
+So that was it, your first program. If you're not thoroughly rattled, keep going. If you are, remember that you're just starting out on a long and entertaining journey, don't sweat it.
 
