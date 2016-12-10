@@ -12,7 +12,7 @@ Instructions here differ for each OS. If you're running Windows or some Linux di
 
 ### Windows
 
-Code::Blocks is a free and simplistic IDE \(super-powered text editor\) with an inbuilt compiler. You can download it [here](http://www.codeblocks.org/downloads). Once it downloads, run the downloaded file to install it.
+Code::Blocks is a free and simplistic IDE \(Integrated Development Environment, i.e. a super-powerful text editor\) with an inbuilt compiler. You can download it [here](http://www.codeblocks.org/downloads). Once it downloads, run the downloaded file to install it.
 
 ### Linux
 
@@ -20,12 +20,10 @@ You've got two options. If you're comfy with a terminal, you should install and 
 
 #### g++
 
-If you're using Debian or Ubuntu, you can install `g++ by running sudo apt-get install g++. That's it.  
+If you're using Debian or Ubuntu, you can install `g++ by running sudo apt-get install g++. That's it.    
 To compile a program, you'll run g++ path/to/program.cpp to compile and link the executable, and ./a.out in your current directory to execute it.`
 
 ### Mac OS X
 
 You'll need to install XCode to get the compiler toolchain.
-
-
 
