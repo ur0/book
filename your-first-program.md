@@ -44,6 +44,8 @@ int main() {
 
 Notice the two _stds_ there? Our line above saves us from typing std:: before everything we're taking from iostream. To elaborate on that, it includes the contents of the std namespace \(bunch of functions and other things provided to you by the language, stored in files like iostream\) into the program so that we don't have to specify it explicitly.
 
+Also, most lines in C++ \(except lines where we're opening a block, like a function or lines beginning with a \# character\) end with a semicolon.
+
 ```cpp
 int main() {
 ```
