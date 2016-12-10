@@ -46,5 +46,19 @@ You can declare a variable without assigning it a value too, as long as you use 
 int independence; // We're just declaring a variable named independance here.
 ```
 
+You could assign this variable a value later, somewhat like this.
+
+```
+independence = 42;
+```
+
+Now you could use independence however you like it.
+
+```
+cout << "Independence is: " << independence << endl; // Will print "Independence is 42" to the screen.
+independence = independence - 13; // independence is now equal to 29
+cout << "Independence is now: " << independence << endl; // Will print "Independence is now 29" to the screen.
+```
+
 
 
