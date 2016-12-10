@@ -20,10 +20,10 @@ You've got two options. If you're comfy with a terminal, you should install and 
 
 #### g++
 
-If you're using Debian or Ubuntu, you can install `g++ by running sudo apt-get install g++. That's it.    
+If you're using Debian or Ubuntu, you can install `g++ by running sudo apt-get install g++. That's it.      
 To compile a program, you'll run g++ path/to/program.cpp to compile and link the executable, and ./a.out in your current directory to execute it.`
 
 ### Mac OS X
 
-You'll need to install XCode to get the compiler toolchain.
+You'll too can either install XCode to get the compiler toolchain, or get CodeBlocks \(I highly recommend CodeBlocks becuase installing XCode takes me forever\).
 
