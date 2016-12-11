@@ -12,12 +12,12 @@ Here's a list of the fundamental types in C++ \(you'll rarely encounter the last
 
 | Type | Description |
 | :--- | :--- |
-| _bool_ | Stores either _true \_or \_false._ |
+| _bool_ | Stores either _true_ or _false._ |
 | _char_ | Stores a single character and occupies a single byte. |
 | _int_ | Stores an integer. Usually, this can store values from -127 to 127. |
 | _float_ | Stores a decimal number with single precision. |
 | _double_ | Stores a decimal number with double precision. |
-| _void_ | \_void \_denotes the absence of type - a void variable has no type. |
+| _void_ | _void_ denotes the absence of type - a void variable has no type. |
 | _wchar\_t_ | A wide-character type. |
 
 ## Declaring Variables
@@ -28,7 +28,7 @@ Before you use a variable, you need to _declare_ it, i.e., you need to tell the 
 int my_integer = 123;
 ```
 
-In the line above, we're declaring an \_integer, \_and assigning it a value of 123.
+In the line above, we're declaring an \_integer\_, and assigning it a value of 123.
 
 Similarly,
 
@@ -59,6 +59,3 @@ cout << "Independence is: " << independence << endl; // Will print "Independence
 independence = independence - 13; // independence is now equal to 29
 cout << "Independence is now: " << independence << endl; // Will print "Independence is now 29" to the screen.
 ```
-
-
-
