@@ -5,4 +5,4 @@
 * [Getting Started](getting-started.md)
 * [Your First Program](your-first-program.md)
 * [Variables](variables.md)
-
+* [Functions](functions.md)
