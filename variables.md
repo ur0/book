@@ -17,7 +17,7 @@ Here's a list of the fundamental types in C++ \(you'll rarely encounter the last
 | _int_ | Stores an integer. Usually, this can store values from -127 to 127. |
 | _float_ | Stores a decimal number with single precision. |
 | _double_ | Stores a decimal number with double precision. |
-| _void_ | _void_ denotes the absence of type - a void variable has no type. |
+| _void_ | `void` denotes the absence of type - a void variable has no type. |
 | _wchar\_t_ | A wide-character type. |
 
 ## Declaring Variables
